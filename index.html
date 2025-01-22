@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron | Web3 Developer</title>
+
+    <!-- CSS Libraries -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Add these in the head section -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <!-- <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">
+                <span class="logo-text">A</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-content"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div id="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="profile-container" data-aos="zoom-in">
+                            <div class="profile-wrapper">
+                                <div class="profile-circle">
+                                    <!-- Replace with your image -->
+                                    <img src="profile.webp" alt="Aaron" id="profile-img">
+                                </div>
+                                <div class="orbital-ring"></div>
+                                <div class="orbital-ring ring2"></div>
+                                <div class="orbital-ring ring3"></div>
+                                <div class="floating-icon icon1">
+                                    <i class="fab fa-ethereum"></i>
+                                </div>
+                                <div class="floating-icon icon2">
+                                    <i class="fab fa-bitcoin"></i>
+                                </div>
+                                <div class="floating-icon icon3">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="hero-text-content">
+                            <div class="glitch-wrapper">
+                                <h1 class="hero-title glitch" data-text="Aaron">Aaron</h1>
+                            </div>
+                            <h2 class="hero-subtitle">Web3 Developer & Designer</h2>
+                            <div class="hero-description">
+                                <p class="mb-4 typing-text">Crafting next-generation digital experiences in the Web3 space</p>
+                            </div>
+                            <div class="hero-buttons">
+                                <a href="#projects" class="cta-button">View My Work</a>
+                                <a href="#contact" class="cta-button secondary">Contact Me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div id="particles-js"></div>
+        <div class="container position-relative">
+            <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="anti.png" alt="AntiVenom Marketing" class="project-img">
+                            <div class="canvas-container">
+                                <canvas class="project-canvas" data-project="antivenom"></canvas>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-content">
+                                    <h3 class="project-title">AntiVenom Marketing</h3>
+                                    <p class="project-description">Web3 Marketing Agency</p>
+                                    <div class="project-tech">
+                                        <span class="tech-tag">React</span>
+                                        <span class="tech-tag">Web3</span>
+                                        <span class="tech-tag">Node.js</span>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="https://www.antivenom-mkt.com/" target="_blank" class="project-link-btn">
+                                            <i class="fas fa-external-link-alt"></i> Visit Site
+                                        </a>
+                                        <a href="https://twitter.com/antiVenomcalls" target="_blank" class="project-link-btn secondary">
+                                            <i class="fab fa-twitter"></i> Twitter
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat for other projects -->
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="sym1.png" alt="AntiVenom Marketing" class="project-img">
+                            <div class="canvas-container">
+                                <canvas class="project-canvas" data-project="antivenom"></canvas>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-content">
+                                    <h3 class="project-title">Symbiote Hive Marketing Firm</h3>
+                                    <p class="project-description">Web3 Marketing Agency</p>
+                                    <div class="project-tech">
+                                        <span class="tech-tag">HTML</span>
+                                        <span class="tech-tag">CSS</span>
+                                        <span class="tech-tag">JavaScript</span>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="https://www.symbiotehivemarketingfirm.com/" target="_blank" class="project-link-btn">
+                                            <i class="fas fa-external-link-alt"></i> Visit Site
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat for other projects -->
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="apex2.png" alt="AntiVenom Marketing" class="project-img">
+                            <div class="canvas-container">
+                                <canvas class="project-canvas" data-project="antivenom"></canvas>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-content">
+                                    <h3 class="project-title">Apex Kilombo Whales</h3>
+                                    <p class="project-description">Bilingual Web3.0 Marketing Agency</p>
+                                    <div class="project-tech">
+                                        <span class="tech-tag">React</span>
+                                        <span class="tech-tag">Web3</span>
+                                        <span class="tech-tag">Node.js</span>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="https://www.apexkilombowhales.com/" target="_blank" class="project-link-btn">
+                                            <i class="fas fa-external-link-alt"></i> Visit Site
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat for other projects -->
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="olv.png" alt="AntiVenom Marketing" class="project-img">
+                            <div class="canvas-container">
+                                <canvas class="project-canvas" data-project="antivenom"></canvas>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-content">
+                                    <h3 class="project-title">Oliver Three Coin</h3>
+                                    <p class="project-description">Meme Coin Project</p>
+                                    <div class="project-tech">
+                                        <span class="tech-tag">HTML</span>
+                                        <span class="tech-tag">CSS</span>
+                                        <span class="tech-tag">JavaScript</span>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="https://www.olivertreecoin.online/" target="_blank" class="project-link-btn">
+                                            <i class="fas fa-external-link-alt"></i> Visit Site
+                                        </a>
+                                        <a href="https://x.com/OLIVERTREEMEME" target="_blank" class="project-link-btn secondary">
+                                            <i class="fab fa-twitter"></i> Twitter
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat for other projects -->
+
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="jeet.png" alt="AntiVenom Marketing" class="project-img">
+                            <div class="canvas-container">
+                                <canvas class="project-canvas" data-project="antivenom"></canvas>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-content">
+                                    <h3 class="project-title">Jeet Bundler</h3>
+                                    <p class="project-description">Crypto PumpFun Bundler</p>
+                                    <div class="project-tech">
+                                        <span class="tech-tag">CSS</span>
+                                        <span class="tech-tag">HTML</span>
+                                        <span class="tech-tag">Web3js</span>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="https://jeet-pump-fun-bundler.vercel.app/" target="_blank" class="project-link-btn">
+                                            <i class="fas fa-external-link-alt"></i> Visit Site
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat for other projects -->
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="trhb.png" alt="AntiVenom Marketing" class="project-img">
+                            <div class="canvas-container">
+                                <canvas class="project-canvas" data-project="antivenom"></canvas>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-content">
+                                    <h3 class="project-title">Trade Hub</h3>
+                                    <p class="project-description">Expert financial consulting & trading education</p>
+                                    <div class="project-tech">
+                                        <span class="tech-tag">CSS</span>
+                                        <span class="tech-tag">HTML</span>
+                                        <span class="tech-tag">Web3js</span>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="https://www.tradehut.com.ng/" target="_blank" class="project-link-btn">
+                                            <i class="fas fa-external-link-alt"></i> Visit Site
+                                        </a>
+                                        <a href="https://x.com/tradehut1?s=21" target="_blank" class="project-link-btn secondary">
+                                            <i class="fab fa-twitter"></i> Twitter
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat for other projects -->
+            </div>
+        </div>
+
+    </section>
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Tech Stack</h2>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up">
+                    <h3 class="category-title">Blockchain</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-ethereum"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Solidity</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add more blockchain skills -->
+                    </div>
+                </div>
+                <div class="skill-category" data-aos="fade-up">
+                    <h3 class="category-title">Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-ethereum"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>HTML, CSS, JavaScript</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add more blockchain skills -->
+                    </div>
+                </div>
+                <div class="skill-category" data-aos="fade-up">
+                    <h3 class="category-title">Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Django</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add more blockchain skills -->
+                    </div>
+                </div>
+                <div class="skill-category" data-aos="fade-up">
+                    <h3 class="category-title">Ai & Machine Learning</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Python</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add more blockchain skills -->
+                    </div>
+                </div>
+
+                <!-- Add more categories (Frontend, Backend, etc.) -->
+            </div>
+        </div>
+        <div class="tech-particles"></div>
+    </section>
+    <!-- About/Experience Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About & Experience</h2>
+
+            <!-- Timeline Container -->
+            <div class="timeline-container">
+                <div class="about-grid">
+                    <!-- About Content -->
+                    <div class="about-content" data-aos="fade-right">
+                        <div class="cyber-card">
+                            <div class="card-header">
+                                <div class="header-dots">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <h3 class="cyber-title">System.About</h3>
+                            </div>
+                            <div class="card-content">
+                                <p class="typing-effect">A passionate Web3 developer with expertise in blockchain technology, smart contracts, and decentralized applications. Committed to building the future of the internet through innovative solutions.</p>
+                                <div class="stats-grid">
+                                    <div class="stat-item">
+                                        <span class="stat-number" data-count="3">5+</span>
+                                        <span class="stat-label">Years Experience</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-number" data-count="50">60+</span>
+                                        <span class="stat-label">Projects Completed</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-number" data-count="30">30+</span>
+                                        <span class="stat-label">Smart Contracts</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience Timeline -->
+                    <div class="experience-timeline" data-aos="fade-left">
+                        <div class="timeline-item active">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="time-stamp">2023 - Present</div>
+                                <h4 class="experience-title">Senior Web3 Developer</h4>
+                                <p class="experience-company">AntiVenom Marketing</p>
+                                <ul class="experience-details">
+                                    <li>Led development of DeFi platforms</li>
+                                    <li>Smart contract optimization</li>
+                                    <li>Web3 integration architecture</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Add more timeline items as needed -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Decorative Elements -->
+        <div class="circuit-overlay"></div>
+        <div class="data-streams"></div>
+    </section>
+    <!-- Services & Expertise Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Services & Expertise</h2>
+
+            <!-- Services Grid -->
+            <div class="services-grid">
+                <!-- Service Card 1 -->
+                <div class="service-card" data-aos="zoom-in">
+                    <div class="service-icon-wrapper">
+                        <canvas class="service-icon-canvas"></canvas>
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Smart Contract Development</h3>
+                        <p>Custom smart contract solutions with security best practices and gas optimization.</p>
+                        <ul class="service-features">
+                            <li>
+                                <span class="feature-icon">⚡</span> Solidity & Rust Development
+                            </li>
+                            <li>
+                                <span class="feature-icon">🛡️</span> Security Auditing
+                            </li>
+                            <li>
+                                <span class="feature-icon">⚙️</span> Gas Optimization
+                            </li>
+                        </ul>
+                        <div class="service-hover">
+                            <span class="hover-text">Explore Service</span>
+                            <div class="hover-particles"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="service-icon-wrapper">
+                        <canvas class="service-icon-canvas"></canvas>
+                        <i class="fas fa-cubes"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>DApp Development</h3>
+                        <p>Full-stack decentralized applications with modern UI/UX and Web3 integration.</p>
+                        <ul class="service-features">
+                            <li>
+                                <span class="feature-icon">🌐</span> Web3.js/Ethers.js Integration
+                            </li>
+                            <li>
+                                <span class="feature-icon">⚛️</span> React/Next.js Development
+                            </li>
+                            <li>
+                                <span class="feature-icon">🔗</span> Blockchain Integration
+                            </li>
+                        </ul>
+                        <div class="service-hover">
+                            <span class="hover-text">Explore Service</span>
+                            <div class="hover-particles"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="service-icon-wrapper">
+                        <canvas class="service-icon-canvas"></canvas>
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>DeFi Solutions</h3>
+                        <p>Custom DeFi protocols and platforms with advanced trading features.</p>
+                        <ul class="service-features">
+                            <li>
+                                <span class="feature-icon">💱</span> DEX Development
+                            </li>
+                            <li>
+                                <span class="feature-icon">🏦</span> Lending Protocols
+                            </li>
+                            <li>
+                                <span class="feature-icon">📊</span> Yield Farming
+                            </li>
+                        </ul>
+                        <div class="service-hover">
+                            <span class="hover-text">Explore Service</span>
+                            <div class="hover-particles"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Expertise Meter -->
+            <div class="expertise-meter" data-aos="fade-up">
+                <div class="meter-container">
+                    <div class="meter-title">Expertise Level</div>
+                    <div class="meter-bar">
+                        <div class="meter-fill"></div>
+                        <div class="meter-markers">
+                            <span>Junior</span>
+                            <span>Mid</span>
+                            <span>Senior</span>
+                            <span>Expert</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Background Effects -->
+        <div class="services-bg-grid"></div>
+        <div class="floating-elements"></div>
+    </section>
+    <!-- Contact & Connect Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Initialize Connection</h2>
+
+            <div class="contact-grid">
+                <!-- Contact Form Card -->
+                <div class="contact-form-container" data-aos="fade-right">
+                    <div class="cyber-card">
+                        <div class="card-header">
+                            <div class="header-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <h3 class="cyber-title">New Message</h3>
+                        </div>
+
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <div class="input-wrapper">
+                                    <input type="text" id="name" required>
+                                    <label for="name">Identifier (Name)</label>
+                                    <div class="input-status"></div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-wrapper">
+                                    <input type="email" id="email" required>
+                                    <label for="email">Communication Protocol (Email)</label>
+                                    <div class="input-status"></div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-wrapper">
+                                    <textarea id="message" required></textarea>
+                                    <label for="message">Data Packet (Message)</label>
+                                    <div class="input-status"></div>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="submit-btn">
+                            <span class="btn-text">Transmit Message</span>
+                            <div class="btn-loader"></div>
+                        </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Connection Panel -->
+                <div class="connection-panel" data-aos="fade-left">
+                    <div class="connection-card">
+                        <div class="status-display">
+                            <div class="status-indicator"></div>
+                            <span class="status-text">Systems Online</span>
+                        </div>
+
+                        <div class="connection-methods">
+                            <h4>Alternative Connection Protocols</h4>
+
+                            <div class="social-links">
+                                <a href="#" class="social-link" data-platform="github">
+                                    <i class="fab fa-github"></i>
+                                    <span class="link-text">GitHub</span>
+                                    <div class="link-particles"></div>
+                                </a>
+
+                                <a href="#" class="social-link" data-platform="linkedin">
+                                    <i class="fab fa-linkedin"></i>
+                                    <span class="link-text">LinkedIn</span>
+                                    <div class="link-particles"></div>
+                                </a>
+
+                                <a href="#" class="social-link" data-platform="twitter">
+                                    <i class="fab fa-twitter"></i>
+                                    <span class="link-text">Twitter</span>
+                                    <div class="link-particles"></div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="connection-stats">
+                            <div class="stat">
+                                <span class="stat-label">Response Time</span>
+                                <span class="stat-value">~24hrs</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Success Rate</span>
+                                <span class="stat-value">99.9%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="network-visualization">
+                        <canvas id="networkCanvas"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Background Elements -->
+        <div class="circuit-paths"></div>
+        <div class="data-flow"></div>
+    </section>
+    <!-- JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <script>
+        // Initialize AOS
+        AOS.init();
+
+        // Loader
+        window.addEventListener('load', () => {
+            const loader = document.querySelector('.loader');
+            loader.style.opacity = '0';
+            setTimeout(() => {
+                loader.style.display = 'none';
+            }, 1000);
+        });
+
+        // Create floating shapes
+        const shapes = document.querySelectorAll('.shape');
+        shapes.forEach((shape, index) => {
+            shape.style.width = Math.random() * 100 + 50 + 'px';
+            shape.style.height = shape.style.width;
+            shape.style.left = Math.random() * 100 + '%';
+            shape.style.top = Math.random() * 100 + '%';
+            shape.style.animationDelay = index * 2 + 's';
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        // Navbar Scroll Effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.style.padding = '0.5rem 0';
+                navbar.style.background = 'rgba(10, 10, 10, 0.98)';
+            } else {
+                navbar.style.padding = '1rem 0';
+                navbar.style.background = 'rgba(10, 10, 10, 0.95)';
+            }
+        });
+
+        // Three.js Project Cards
+        // Three.js Project Cards new
+        const projectCanvases = document.querySelectorAll('.project-canvas');
+        projectCanvases.forEach(canvas => {
+            const scene = new THREE.Scene();
+            const camera = new THREE.PerspectiveCamera(75, canvas.clientWidth / canvas.clientHeight, 0.1, 1000);
+            const renderer = new THREE.WebGLRenderer({
+                canvas,
+                alpha: true,
+                antialias: true
+            });
+
+            renderer.setSize(canvas.clientWidth, canvas.clientHeight);
+            renderer.setClearColor(0x000000, 0);
+
+            // Create geometric shape based on project
+            const geometry = new THREE.IcosahedronGeometry(1, 0);
+            const material = new THREE.MeshPhongMaterial({
+                color: 0x6C63FF,
+                wireframe: true,
+                transparent: true,
+                opacity: 0.7
+            });
+
+            const mesh = new THREE.Mesh(geometry, material);
+            scene.add(mesh);
+
+            // Add lights
+            const light = new THREE.PointLight(0xFFFFFF, 1, 100);
+            light.position.set(10, 10, 10);
+            scene.add(light);
+
+            camera.position.z = 2.5;
+
+            // Animation
+            function animate() {
+                requestAnimationFrame(animate);
+                mesh.rotation.x += 0.01;
+                mesh.rotation.y += 0.01;
+                renderer.render(scene, camera);
+            }
+            animate();
+        });
+        // Initialize Particles.js
+        particlesJS('particles-js', {
+            particles: {
+                number: {
+                    value: 80
+                },
+                color: {
+                    value: '#6C63FF'
+                },
+                shape: {
+                    type: 'circle'
+                },
+                opacity: {
+                    value: 0.5,
+                    random: true
+                },
+                size: {
+                    value: 3,
+                    random: true
+                },
+                move: {
+                    enable: true,
+                    speed: 2,
+                    direction: 'none',
+                    random: false,
+                    straight: false,
+                    out_mode: 'out',
+                    bounce: false,
+                }
+            },
+            interactivity: {
+                detect_on: 'canvas',
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: 'repulse'
+                    },
+                    onclick: {
+                        enable: true,
+                        mode: 'push'
+                    },
+                    resize: true
+                }
+            }
+        });
+    </script>
+    <script>
+        // Add this to your existing scripts
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer({
+            alpha: true
+        });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.getElementById('hero-bg').appendChild(renderer.domElement);
+
+        // Create particles
+        const particlesGeometry = new THREE.BufferGeometry();
+        const particlesCount = 2000;
+        const posArray = new Float32Array(particlesCount * 3);
+
+        for (let i = 0; i < particlesCount * 3; i++) {
+            posArray[i] = (Math.random() - 0.5) * 5;
+        }
+
+        particlesGeometry.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
+
+        const particlesMaterial = new THREE.PointsMaterial({
+            size: 0.005,
+            color: 0x6C63FF,
+            transparent: true,
+            opacity: 0.8
+        });
+
+        const particlesMesh = new THREE.Points(particlesGeometry, particlesMaterial);
+        scene.add(particlesMesh);
+
+        camera.position.z = 2;
+
+        // Mouse movement effect
+        let mouseX = 0;
+        let mouseY = 0;
+
+        document.addEventListener('mousemove', (event) => {
+            mouseX = event.clientX;
+            mouseY = event.clientY;
+        });
+
+        // Animation
+        const animate = () => {
+            requestAnimationFrame(animate);
+
+            particlesMesh.rotation.y = mouseX * 0.0001;
+            particlesMesh.rotation.x = mouseY * 0.0001;
+            particlesMesh.rotation.z += 0.001;
+
+            renderer.render(scene, camera);
+        };
+
+        animate();
+
+        // Handle window 
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+    </script>
+    <script>
+        // Add this to your existing scripts
+        function createFloatingNumbers() {
+            const container = document.querySelector('.hero-section');
+            for (let i = 0; i < 20; i++) {
+                const number = document.createElement('div');
+                number.className = 'floating-numbers';
+                number.style.left = Math.random() * 100 + 'vw';
+                number.style.animationDelay = Math.random() * 5 + 's';
+                number.textContent = Math.random().toString(2).substr(2, 8);
+                container.appendChild(number);
+            }
+        }
+
+        createFloatingNumbers();
+    </script>
+    <script>
+        // Animate skill bars when in view
+        const skillBars = document.querySelectorAll('.skill-progress');
+        const observerOptions = {
+            threshold: 0.5
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const progress = entry.target.getAttribute('data-progress');
+                    entry.target.style.width = `${progress}%`;
+                }
+            });
+        }, observerOptions);
+
+        skillBars.forEach(bar => observer.observe(bar));
+
+        // Add floating tech particles
+        const techParticles = document.querySelector('.tech-particles');
+        const techIcons = ['</>', '☰', '{ }', '◈', ''];
+
+        for (let i = 0; i < 20; i++) {
+            const particle = document.createElement('span');
+            particle.className = 'tech-particle';
+            particle.textContent = techIcons[Math.floor(Math.random() * techIcons.length)];
+            particle.style.left = `${Math.random() * 100}%`;
+            particle.style.animationDuration = `${Math.random() * 20 + 10}s`;
+            particle.style.animationDelay = `${Math.random() * 5}s`;
+            techParticles.appendChild(particle);
+        }
+    </script>
+    <script>
+        // Animate stats numbers
+        function animateStats() {
+            const stats = document.querySelectorAll('.stat-number');
+
+            stats.forEach(stat => {
+                const target = parseInt(stat.getAttribute('data-count'));
+                let current = 0;
+                const increment = target / 50; // Adjust for animation speed
+
+                const updateCount = () => {
+                    if (current < target) {
+                        current += increment;
+                        stat.textContent = Math.floor(current);
+                        requestAnimationFrame(updateCount);
+                    } else {
+                        stat.textContent = target;
+                    }
+                };
+
+                updateCount();
+            });
+        }
+
+        // Create data stream effect
+        function createDataStreams() {
+            const container = document.querySelector('.data-streams');
+            const streamCount = 20;
+
+            for (let i = 0; i < streamCount; i++) {
+                const stream = document.createElement('div');
+                stream.className = 'data-stream';
+                stream.style.left = `${Math.random() * 100}%`;
+                stream.style.animationDuration = `${Math.random() * 3 + 2}s`;
+                stream.style.animationDelay = `${Math.random() * 2}s`;
+
+                const characters = '01';
+                for (let j = 0; j < 10; j++) {
+                    const char = document.createElement('span');
+                    char.textContent = characters.charAt(Math.floor(Math.random() * characters.length));
+                    stream.appendChild(char);
+                }
+
+                container.appendChild(stream);
+            }
+        }
+
+        // Initialize animations when section is in view
+        const aboutSection = document.querySelector('.about-section');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateStats();
+                    createDataStreams();
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.5
+        });
+
+        observer.observe(aboutSection);
+
+        // Add hover effect to timeline items
+        const timelineItems = document.querySelectorAll('.timeline-item');
+        timelineItems.forEach(item => {
+            item.addEventListener('mouseenter', () => {
+                timelineItems.forEach(i => i.classList.remove('active'));
+                item.classList.add('active');
+            });
+        });
+    </script>
+    <script>
+        // Initialize Three.js scenes for service icons
+        function initServiceIcons() {
+            const canvases = document.querySelectorAll('.service-icon-canvas');
+
+            canvases.forEach(canvas => {
+                const scene = new THREE.Scene();
+                const camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);
+                const renderer = new THREE.WebGLRenderer({
+                    canvas,
+                    alpha: true,
+                    antialias: true
+                });
+
+                renderer.setSize(80, 80);
+
+                // Create geometric shape
+                const geometry = new THREE.OctahedronGeometry(1, 0);
+                const material = new THREE.MeshPhongMaterial({
+                    color: 0x6C63FF,
+                    wireframe: true,
+                    transparent: true,
+                    opacity: 0.7
+                });
+
+                const mesh = new THREE.Mesh(geometry, material);
+                scene.add(mesh);
+
+                // Add lights
+                const light = new THREE.PointLight(0xFFFFFF, 1, 100);
+                light.position.set(10, 10, 10);
+                scene.add(light);
+
+                camera.position.z = 2.5;
+
+                // Animation
+                function animate() {
+                    requestAnimationFrame(animate);
+                    mesh.rotation.x += 0.01;
+                    mesh.rotation.y += 0.01;
+                    renderer.render(scene, camera);
+                }
+
+                animate();
+            });
+        }
+
+        // Create floating elements
+        function createFloatingElements() {
+            const container = document.querySelector('.floating-elements');
+            // const elements = ['⚡', '🔗', '⚛️', '💠'];
+
+            for (let i = 0; i < 20; i++) {
+                const element = document.createElement('div');
+                element.className = 'floating-element';
+                element.textContent = elements[Math.floor(Math.random() * elements.length)];
+                element.style.left = `${Math.random() * 100}%`;
+                element.style.animationDuration = `${Math.random() * 10 + 5}s`;
+                element.style.animationDelay = `${Math.random() * 5}s`;
+                container.appendChild(element);
+            }
+        }
+
+        // Initialize when document is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            initServiceIcons();
+            createFloatingElements();
+        });
+    </script>
+    <script>
+        // Contact Form Handling
+        const contactForm = document.getElementById('contactForm');
+        const submitBtn = contactForm.querySelector('.submit-btn');
+
+        contactForm.addEventListener('submit', async(e) => {
+            e.preventDefault();
+
+            // Show loading state
+            submitBtn.classList.add('loading');
+
+            // Simulate form submission
+            await new Promise(resolve => setTimeout(resolve, 2000));
+
+            // Show success state
+            submitBtn.classList.remove('loading');
+            submitBtn.classList.add('success');
+
+            // Reset form
+            setTimeout(() => {
+                contactForm.reset();
+                submitBtn.classList.remove('success');
+            }, 3000);
+        });
+
+        // Network Visualization
+        function initNetworkVisualization() {
+            const canvas = document.getElementById('networkCanvas');
+            const ctx = canvas.getContext('2d');
+
+            // Set canvas size
+            function resize() {
+                canvas.width = canvas.offsetWidth;
+                canvas.height = canvas.offsetHeight;
+            }
+
+            resize();
+            window.addEventListener('resize', resize);
+
+            // Create nodes and connections
+            const nodes = [];
+            const connections = [];
+
+            // Animation loop
+            function animate() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+                // Draw connections
+                connections.forEach(connection => {
+                    // Draw connection logic
+                });
+
+                // Draw nodes
+                nodes.forEach(node => {
+                    // Draw node logic
+                });
+
+                requestAnimationFrame(animate);
+            }
+
+            animate();
+        }
+
+        // Initialize everything when document is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            initNetworkVisualization();
+        });
+
+        // Social Link Particles
+        const socialLinks = document.querySelectorAll('.social-link');
+
+        socialLinks.forEach(link => {
+            link.addEventListener('mouseenter', () => {
+                createParticles(link);
+            });
+        });
+
+        function createParticles(element) {
+            const particles = element.querySelector('.link-particles');
+            particles.innerHTML = '';
+
+            for (let i = 0; i < 10; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particles.appendChild(particle);
+            }
+        }
+    </script>
+</body>
+
+</html>
